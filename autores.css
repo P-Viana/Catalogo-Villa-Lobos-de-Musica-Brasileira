@@ -114,3 +114,7 @@ span{
 #informacoes{
     text-align: justify;
 }
+.dark-mode{
+    background-color: black;
+    color: white;
+}

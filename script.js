@@ -21,9 +21,9 @@ function darkMode()
     tags = document.querySelectorAll('.tag');
     tags.forEach
     (tag => 
-        {tag.style.color = 'white';}
+        {tag.style.color = 'black';}
     );
     testa = 0;
     tags = 0;
    }
-}
+} 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato Catálogo Villa Lobos de Música Brasileira</title>
     <link rel="stylesheet" href="contato.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -17,10 +18,12 @@
 
     <main>
         <div id="menu">
-         <a href="index.html">Página inicial</a>
-         <a href="quemsomos.html">Quem somos?</a>
-         <a href="contato.html">Contato</a>
-         <a href="comofunciona.html">Como funciona o Catálogo?</a>
+         <a href="index.html" class="tag">Página inicial</a>
+         <a href="quemsomos.html" class="tag">Quem somos?</a>
+         <a href="quemsomos.html" class="tag">Quem somos?</a>
+         <a href="contato.html" class="tag">Contato</a>
+         <a href="comofunciona.html" class="tag">Como funciona o Catálogo?</a>
+         <button onclick="darkMode()">Tema escuro</button>
         </div>
         <hr>
         <div id="destaques">
@@ -35,10 +38,10 @@
                     <input type="email"  id="email"><br><br>
                     Digite a sua mensagem para a gente: <br><br>
                     <textarea name="mensagem" id="mensagem"></textarea><br><br>
-                    <input type="submit" value="Enviar formulário!" id="submit">
+                    <input type="button" value="Enviar formulário!" id="submit">
                 </form>
             </div>
-
+        </div>
     </main>
     <footer>
         Catálogo  Villa Lobos de Música Brasileira 2024. <br>Todos os direitos reservados.

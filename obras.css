@@ -109,3 +109,19 @@ footer{
     height: 15vh;
     padding: 5px;
 }
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 550px){
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    #relacionados{
+        display: flex;
+        flex-direction: column;
+   
+    }
+}
