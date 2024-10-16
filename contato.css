@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    gap: 5%;
 }
 a{
     text-decoration: none;
@@ -27,14 +28,7 @@ a:active{
     color: red;
     font-size: 1.40em;
 }
-#destaques{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    text-align: center;
-    gap: 10px;
-    padding: 5%;
-}
+
 footer{
     color: white;
     text-align: center;
@@ -49,15 +43,22 @@ footer{
 }
 #nome{
     font-size: large;
+    width: 100%;
 }
 #email{
     font-size: large;
+    width: 100%;
+}
+#destaques{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #contato{
-    padding: 10%;
+    width: 40%;
+    padding: 5%;
     text-align: center;
-    grid-column: 2;
-    grid-row: 2;
     font-size: larger;
     background-color:rgba(163, 163, 163, 0.811) ;
     color: white;
@@ -71,7 +72,7 @@ footer{
     padding: 30px;
 }
 #submit{
-    width: 75%;
+    width: 100%;
     font-size: larger;
     border-radius: 5%;
     background-color: white ;
@@ -80,4 +81,17 @@ footer{
 .dark-mode{
     background-color: black;
     color: white;
+}
+
+@media (max-width: 950px){
+    #contato{
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+        font-size: larger;
+        background-color:rgba(163, 163, 163, 0.811) ;
+        color: white;
+        border-radius: 10%;
+        border-color: black;
+    }
 }

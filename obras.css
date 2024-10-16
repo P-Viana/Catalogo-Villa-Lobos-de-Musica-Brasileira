@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    gap: 5%;
 }
 a{
     text-decoration: none;
